@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     457400639765225473       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Tiny Tapeout simple dft"      # Project title
+  author:       "Jakub Rachon"      # Your name
+  discord:      "magnetofield"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Showcase how to increase cells usage by insterting simple dft"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,34 +16,34 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Au1"
+  ui[1]: "Au2"
+  ui[2]: "Au3"
+  ui[3]: "Au4"
+  ui[4]: "Au5"
+  ui[5]: "Au6"
+  ui[6]: "Au7"
+  ui[7]: "Au8"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "Yu1"
+  uo[1]: "Yu2"
+  uo[2]: "Yu3"
+  uo[3]: "Yu4"
+  uo[4]: "Yu5"
+  uo[5]: "Yu6"
+  uo[6]: "Yu7"
+  uo[7]: "Yu8"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "AYu1"
+  uio[1]: "AYu2"
+  uio[2]: "AYu3"
+  uio[3]: "AYu4"
+  uio[4]: "AYu5"
+  uio[5]: "AYu6"
+  uio[6]: "AYu7"
+  uio[7]: "AYu8"
 
 # Do not change!
 yaml_version: 6
