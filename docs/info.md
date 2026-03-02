@@ -9,12 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Simple wokwi design with 4 inverters. Simple DFT implementation to show how to incerease cells usage.
 
 ## How to test
 
-Explain how to use your project
+Set your inputs on Au1:Au7 and test outputs. Check what is on input output cells which should be tapped in beetwen logic cells.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+PCB carier board with usb cable.
+
+## Pinout 
+
+Inputs are marked A and outputs are marked Y.
